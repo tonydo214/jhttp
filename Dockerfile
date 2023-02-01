@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine3.9
+FROM openjdk:8-jre-alpine3.9@sha256:f362b165b870ef129cbe730f29065ff37399c0aa8bcab3e44b51c302938c9193
 LABEL maintainer="Shivakumar Ningappa <shivagowda@gmail.com>"
 
 # Copy the already build jar to the image
